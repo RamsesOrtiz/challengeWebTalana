@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Web Challenge on demoblaze.com"  >
+    <test name="Automation Web Challenge on demoblaze.com">
+        <classes>
+            <class name="com.challenge.test.RunCucumberTest"/>
+        </classes>
+    </test>
+    <suite-files>
+        <suite-file path="testng-suites/AddMultipleCategories.xml"/>
+        <suite-file path="./testng-suites/ShoppingCart.xml"/>
+        <suite-file path="./testng-suites/CheckoutFlow.xml"/>
+    </suite-files>
+</suite>

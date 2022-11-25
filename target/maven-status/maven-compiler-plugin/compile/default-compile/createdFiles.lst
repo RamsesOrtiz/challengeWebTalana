@@ -1,0 +1,8 @@
+com\challenge\config\LoggerPage.class
+com\challenge\config\TestDataPage.class
+com\challenge\process\AddMultipleCategoriesProcess.class
+com\challenge\config\ConfigPage.class
+com\challenge\process\CheckoutFlowProcess.class
+com\challenge\process\LoginProcess.class
+com\challenge\config\PropertiesPage.class
+com\challenge\process\ShoppingCartProcess.class

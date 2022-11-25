@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CheckoutFlow">
+    <test verbose="2" preserve-order="true" name="CheckoutFlowTest">
+        <classes>
+            <class name="com.challenge.test.defs.CheckoutFlowTest">
+                <methods>
+                    <include name="a_user_visit_the_homepage"/>
+                    <include name="add_a_product_to_the_cart"/>
+                    <include name="select_place_order_option"/>
+                    <include name="fill_all_data_fields"/>
+                    <include name="select_purchase"/>
+                    <include name="the_system_response_is_successful"/>
+                    <include name="the_credit_card_number_in_the_confirmation_popup_is_equal_as_the_entered_previously"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

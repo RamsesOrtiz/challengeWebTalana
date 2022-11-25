@@ -1,0 +1,4 @@
+com\challenge\test\defs\CheckoutFlowTest.class
+com\challenge\test\defs\ShoppingCartTest.class
+com\challenge\test\defs\AddMultipleCategoriesTest.class
+com\challenge\test\RunCucumberTest.class

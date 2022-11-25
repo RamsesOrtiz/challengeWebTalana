@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AddMultipleCategories">
+    <test verbose="2" preserve-order="true" name="AddMultipleCategoriesTest">
+        <classes>
+            <class name="com.challenge.test.defs.AddMultipleCategoriesTest">
+                <methods>
+                    <include name="a_user_visits_the_demoblaze_webpage"/>
+                    <include name="visit_and_adds_a_product_from_each_category"/>
+                    <include name="the_system_response_is_successful_for_each_product_added"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
